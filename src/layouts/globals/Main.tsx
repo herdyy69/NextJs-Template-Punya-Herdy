@@ -33,7 +33,7 @@ const Main: React.FC<MainProps> = ({ children, title, canonical }) => {
 
       <Header />
       <main>{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
